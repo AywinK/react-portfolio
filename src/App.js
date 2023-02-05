@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 
 function App() {
 
-  const bodyBSStyles = "container";
+  const bodyBSStyles = "";
 
   return (
     <div className={bodyBSStyles}>
