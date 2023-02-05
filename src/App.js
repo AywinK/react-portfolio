@@ -8,12 +8,13 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 
+
 function App() {
 
-  const bodyBSStyles = "";
+
 
   return (
-    <div className={bodyBSStyles}>
+    <div>
       <Header />
 
       <Routes>
