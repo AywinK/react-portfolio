@@ -1,7 +1,7 @@
 
 :root {
   --customBlue: #006466; /* skobeloff*/
-  --customDarkBlue: #212f45; /* prussianBlue*/
+  --customDarkBlue: #e68bd6; /* prussianBlue*/
   --customGrey: #272640; /* spaceCadet*/
   --customPurple: #4d194d; /* palatinatePurple*/
 }
@@ -10,6 +10,42 @@ header nav .active {
   opacity: 0.7 !important;
   font-style: italic !important;
   /* filter:drop-shadow(8); */
+}
+
+#root {
+  font-family: sans-serif;
+  min-height: 100vh !important;
+  background-color: red;
+}
+
+#root .container-fluid {
+  min-height: 94vh;
+}
+
+
+.cvBtn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.cvBtn:hover {
+  background-color: #3e8e41
+}
+
+.cvBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* .App {
