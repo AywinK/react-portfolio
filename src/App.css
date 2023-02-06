@@ -24,49 +24,45 @@ header nav .active {
 
 
 .cvBtn {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  display: inline-block !important;
+  width: 250px !important;
+  height: fit-content !important;
+  padding: 15px 25px !important;
+  font-size: 24px !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  outline: none !important;
+  color: #fff !important;
+  background-color: var(--customGrey) !important;
+  border: none !important;
+  border-radius: 15px !important;
+  transition-duration: 1s !important;
 }
 
 .cvBtn:hover {
-  background-color: #3e8e41
-}
-
-.cvBtn:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  background-color: var(--customDarkBlue) !important;
 }
 
 .contactBtn {
   width: 200px !important;
   display: inline-block !important;
-  background-color: var(--customDarkBlue) !important;
   border-radius: 10px !important;
   border: 5px double var(--customGrey) !important;
-  color: var(--customGrey) !important;
   text-align: center !important;
   font-size: 1.5em !important;
   padding: 5px !important;
   transition: all 0.5s !important;
   cursor: pointer;
   margin: 5px !important;
-
+  background-image: linear-gradient(to right, var(--customPurple),var(--customBlue)) !important;
+  color: var(--customDarkBlue) !important;
 }
 
 .contactBtn:hover {
-  background-image: linear-gradient(to right, var(--customPurple),var(--customBlue)) !important;
-  color: var(--customDarkBlue) !important;
+
+  background-image: linear-gradient(var(--customDarkBlue), var(--customDarkBlue)) !important;
+  color: var(--customGrey) !important;
 }
 
 .contactForm {
@@ -88,6 +84,17 @@ input[type=email]:focus, input[type=text]:focus, #FormControlTextarea1:focus {
 
 form {
   color: var(--customDarkBlue) !important;
+}
+
+.anchor:link {
+  color: white !important;
+}
+
+.anchor:visited, .anchor:hover, .anchor:active {
+  color: var(--customDarkBlue) !important;
+}
+.contactInfo {
+  min-height: 100% !important;
 }
 
 /* .App {
