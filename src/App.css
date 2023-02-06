@@ -14,12 +14,12 @@ header nav .active {
 
 #root {
   font-family: sans-serif;
-  min-height: 100vh !important;
-  background-color: red;
+  min-height: 93vh !important;
+  background-color: red; /* testing for gaps CSS */
 }
 
 #root .container-fluid {
-  min-height: 94vh;
+  min-height: 93vh !important;
 }
 
 
@@ -46,6 +46,48 @@ header nav .active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.contactBtn {
+  width: 200px !important;
+  display: inline-block !important;
+  background-color: var(--customDarkBlue) !important;
+  border-radius: 10px !important;
+  border: 5px double var(--customGrey) !important;
+  color: var(--customGrey) !important;
+  text-align: center !important;
+  font-size: 1.5em !important;
+  padding: 5px !important;
+  transition: all 0.5s !important;
+  cursor: pointer;
+  margin: 5px !important;
+
+}
+
+.contactBtn:hover {
+  background-image: linear-gradient(to right, var(--customPurple),var(--customBlue)) !important;
+  color: var(--customDarkBlue) !important;
+}
+
+.contactForm {
+  width: 75% !important;
+  margin: 0 auto !important;
+}
+
+input[type=email], input[type=text], textarea {
+  background-color: var(--customGrey) !important;
+  resize: none;
+  color: var(--customBlue) !important;
+}
+
+input[type=email]:focus, input[type=text]:focus, #FormControlTextarea1:focus {
+  outline: none !important;
+  border:1px solid var(--customGrey);
+  box-shadow: 0 0 13px var(--customDarkBlue);
+}
+
+form {
+  color: var(--customDarkBlue) !important;
 }
 
 /* .App {
