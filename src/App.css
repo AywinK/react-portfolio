@@ -103,7 +103,7 @@ form, .customText {
 
 .projectImg {
   height: 300px !important;
-  width: 400px !important;
+  max-width: 400px !important;
 }
 
 /* .App {
