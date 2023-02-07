@@ -10,7 +10,7 @@ function Project(projectProp) {
 
     return (
         <div className="p-2 my-5">
-            <img src={projectProp.image} className="img-fluid shadow-4-strong py-2 projectImg" alt={projectProp.title}></img>
+            <img src={projectProp.image} className="shadow-4-strong pt-1 pb-3 projectImg" alt={projectProp.title}></img>
             <h3>{projectProp.title}</h3>
             <button type="button" className="cvBtn my-2" onClick={e => {
                 e.preventDefault();
