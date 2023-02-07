@@ -82,7 +82,7 @@ input[type=email]:focus, input[type=text]:focus, #FormControlTextarea1:focus {
   box-shadow: 0 0 13px var(--customDarkBlue);
 }
 
-form {
+form, .customText {
   color: var(--customDarkBlue) !important;
 }
 
@@ -95,6 +95,10 @@ form {
 }
 .contactInfo {
   min-height: 100% !important;
+}
+
+.projectItem {
+  border: 0.1em solid var(--customGrey);
 }
 
 /* .App {
