@@ -98,7 +98,12 @@ form, .customText {
 }
 
 .projectItem {
-  border: 0.1em solid var(--customGrey);
+  /* border: 0.1em solid var(--customGrey); */
+}
+
+.projectImg {
+  height: 300px !important;
+  width: 400px !important;
 }
 
 /* .App {
