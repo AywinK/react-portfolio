@@ -1,7 +1,7 @@
 
 :root {
   --customBlue: #006466; /* skobeloff*/
-  --customDarkBlue: #212f45; /* prussianBlue*/
+  --customDarkBlue: #e68bd6; /* prussianBlue*/
   --customGrey: #272640; /* spaceCadet*/
   --customPurple: #4d194d; /* palatinatePurple*/
 }
@@ -10,6 +10,91 @@ header nav .active {
   opacity: 0.7 !important;
   font-style: italic !important;
   /* filter:drop-shadow(8); */
+}
+
+#root {
+  font-family: sans-serif;
+  min-height: 93vh !important;
+  background-color: red; /* testing for gaps CSS */
+}
+
+#root .container-fluid {
+  min-height: 93vh !important;
+}
+
+
+.cvBtn {
+  display: inline-block !important;
+  width: 250px !important;
+  height: fit-content !important;
+  padding: 15px 25px !important;
+  font-size: 24px !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  outline: none !important;
+  color: #fff !important;
+  background-color: var(--customGrey) !important;
+  border: none !important;
+  border-radius: 15px !important;
+  transition-duration: 1s !important;
+}
+
+.cvBtn:hover {
+  background-color: var(--customDarkBlue) !important;
+}
+
+.contactBtn {
+  width: 200px !important;
+  display: inline-block !important;
+  border-radius: 10px !important;
+  border: 5px double var(--customGrey) !important;
+  text-align: center !important;
+  font-size: 1.5em !important;
+  padding: 5px !important;
+  transition: all 0.5s !important;
+  cursor: pointer;
+  margin: 5px !important;
+  background-image: linear-gradient(to right, var(--customPurple),var(--customBlue)) !important;
+  color: var(--customDarkBlue) !important;
+}
+
+.contactBtn:hover {
+
+  background-image: linear-gradient(var(--customDarkBlue), var(--customDarkBlue)) !important;
+  color: var(--customGrey) !important;
+}
+
+.contactForm {
+  width: 75% !important;
+  margin: 0 auto !important;
+}
+
+input[type=email], input[type=text], textarea {
+  background-color: var(--customGrey) !important;
+  resize: none;
+  color: var(--customBlue) !important;
+}
+
+input[type=email]:focus, input[type=text]:focus, #FormControlTextarea1:focus {
+  outline: none !important;
+  border:1px solid var(--customGrey);
+  box-shadow: 0 0 13px var(--customDarkBlue);
+}
+
+form {
+  color: var(--customDarkBlue) !important;
+}
+
+.anchor:link {
+  color: white !important;
+}
+
+.anchor:visited, .anchor:hover, .anchor:active {
+  color: var(--customDarkBlue) !important;
+}
+.contactInfo {
+  min-height: 100% !important;
 }
 
 /* .App {

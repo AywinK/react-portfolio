@@ -2,7 +2,7 @@
 
 function Projects() {
     return (
-        <div>
+        <div className="container-fluid bg-dark">
             <h2>Projects</h2>
         </div>
     );
