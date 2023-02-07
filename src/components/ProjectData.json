@@ -3,37 +3,37 @@
       {
         "title": "MovieZone",
         "live": "https://aywink.github.io/MovieZone/",
-        "image": "src/assets/images/moviezone.gif",
+        "image": "images/moviezone.gif",
         "repo": "https://github.com/AywinK/MovieZone"
       },
       {
         "title": "Weather Forecast Web App",
         "live": "https://aywink.github.io/Weather-Forecast-Web-App/",
-        "image": "src/assets/images/weather.gif",
+        "image": "images/weather.gif",
         "repo": "https://github.com/AywinK/Weather-Forecast-Web-App"
       },
       {
         "title": "JS Fundamentals Coding Quiz",
         "live": "https://aywink.github.io/JS-Fundamentals-Coding-Quiz/",
-        "image": "src/assets/images/codequiz.gif",
+        "image": "images/codequiz.gif",
         "repo": "https://github.com/AywinK/JS-Fundamentals-Coding-Quiz"
       },
       {
         "title": "Daily Planner",
         "live": "https://aywink.github.io/Daily-Planner/",
-        "image": "src/assets/images/planner.gif",
+        "image": "images/planner.gif",
         "repo": "https://github.com/AywinK/Daily-Planner"
       },
       {
         "title": "README Generator",
         "live": "https://github.com/AywinK/README-Generator/blob/main/README-Generator_README.md",
-        "image": "src/assets/images/generator.gif",
+        "image": "images/generator.gif",
         "repo": "https://github.com/AywinK/README-Generator"
       },
       {
         "title": "Random Password Generator",
         "live": "https://aywink.github.io/Random-Password-Generator/",
-        "image": "src/assets/images/password.png",
+        "image": "images/password.png",
         "repo": "https://github.com/AywinK/Random-Password-Generator"
       }
     ]
