@@ -2,8 +2,12 @@
 import ProjectThumbnail from "./ProjectThumbnail";
 import ProjectData from "./ProjectData.json";
 
+import { Route, Routes, NavLink } from "react-router-dom";
+
 
 function Projects() {
+
+    const pageTitle = "<Projects />"; //styled as react component syntax
 
     const customBackground = {
         backgroundImage: "radial-gradient(circle at 360%, var(--customPurple), var(--customBlue) 60%, var(--customBlue) 75%, var(--customPurple) 95%)",
@@ -11,12 +15,12 @@ function Projects() {
 
     return (
         <div className="text-white container-fluid grid text-center" style={customBackground}>
-            <h2 className="pt-3 customText fs-1 row justify-content-center">Projects</h2>
+            <h2 className="pt-3 customText fs-1 row justify-content-center monospaceFont">{pageTitle}</h2>
             <main className="row justify-content-center align-items-center">
                 {ProjectData.data.map((projectObj, index) => {
                     // console.log(index);
                     return (
-                        <div className="col-lg-4 col-md-6 col-12 p-5" key={index}>
+                        <div className="col-lg-4 col-md-6 col-12 p-5" key={projectObj.title}>
                         <ProjectThumbnail projectObj={projectObj} />
                         </div>
                     )
