@@ -1,5 +1,5 @@
 
-import Project from "./Project";
+import ProjectThumbnail from "./ProjectThumbnail";
 import ProjectData from "./ProjectData.json";
 
 
@@ -16,8 +16,8 @@ function Projects() {
                 {ProjectData.data.map((projectObj, index) => {
                     // console.log(index);
                     return (
-                        <div className="col-lg-4 col-md-6 col-12 projectItem g-3" key={index}>
-                        {Project(projectObj)}
+                        <div className="col-lg-4 col-md-6 col-12 p-5" key={index}>
+                        <ProjectThumbnail projectObj={projectObj} />
                         </div>
                     )
                     })}

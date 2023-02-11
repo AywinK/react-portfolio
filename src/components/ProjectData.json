@@ -3,38 +3,44 @@
       {
         "title": "MovieZone",
         "live": "https://aywink.github.io/MovieZone/",
-        "image": "images/moviezone.gif",
-        "repo": "https://github.com/AywinK/MovieZone"
+        "image": "moviezone.gif",
+        "repo": "https://github.com/AywinK/MovieZone",
+        "description": "A web application which allows movie enthusiasts to search for movie titles and create a schedule to watch movies."
       },
       {
         "title": "Weather Forecast Web App",
         "live": "https://aywink.github.io/Weather-Forecast-Web-App/",
-        "image": "images/weather.gif",
-        "repo": "https://github.com/AywinK/Weather-Forecast-Web-App"
+        "image": "weather.gif",
+        "repo": "https://github.com/AywinK/Weather-Forecast-Web-App",
+        "description": "A weather application which allows travellers to search for the current weather and the five day forecast for multiple cities, so that they can plan trips accordingly."
       },
       {
         "title": "JS Fundamentals Coding Quiz",
         "live": "https://aywink.github.io/JS-Fundamentals-Coding-Quiz/",
-        "image": "images/codequiz.gif",
-        "repo": "https://github.com/AywinK/JS-Fundamentals-Coding-Quiz"
+        "image": "codequiz.gif",
+        "repo": "https://github.com/AywinK/JS-Fundamentals-Coding-Quiz",
+        "description": "A timed multiple choice quiz to test user's knowledge on JavaScript Fundamentals. The quiz features a hi-scores that stores the data locally, so that you can compare your score with others. The quiz features both audio and visual feedback."
       },
       {
         "title": "Daily Planner",
         "live": "https://aywink.github.io/Daily-Planner/",
-        "image": "images/planner.gif",
-        "repo": "https://github.com/AywinK/Daily-Planner"
+        "image": "planner.gif",
+        "repo": "https://github.com/AywinK/Daily-Planner",
+        "description": "A web application that allows a user to save important events to manage their work schedule. The planner provides the user with hourly timeblocks for standard business hours to enter events. The timeblocks are dynamically colour coded based on the current time. The events are stored locally and persists between page refreshes."
       },
       {
         "title": "README Generator",
         "live": "https://github.com/AywinK/README-Generator/blob/main/README-Generator_README.md",
-        "image": "images/generator.gif",
-        "repo": "https://github.com/AywinK/README-Generator"
+        "image": "generator.gif",
+        "repo": "https://github.com/AywinK/README-Generator",
+        "description": "A command line interface application to quickly create a professional README for a project. Simply answer 13 questions about your project to generate a high quality README markdown file."
       },
       {
         "title": "Random Password Generator",
         "live": "https://aywink.github.io/Random-Password-Generator/",
-        "image": "images/password.png",
-        "repo": "https://github.com/AywinK/Random-Password-Generator"
+        "image": "password.png",
+        "repo": "https://github.com/AywinK/Random-Password-Generator",
+        "description": "Random password generator application created to generate a random password based on criteria selected by user."
       }
     ]
   }
