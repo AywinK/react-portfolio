@@ -9,8 +9,8 @@ function Footer() {
 
     return (
         <>
-        <footer className="text-center" style={footerStylesObj}>
-           Copyright &copy; 2023 Aywin Kattappuram
+        <footer className="text-center d-flex justify-content-around align-items-center" style={footerStylesObj}>
+           <p className="my-1">Copyright &copy; 2023 Aywin Kattappuram</p>
         </footer>
         </>
     )

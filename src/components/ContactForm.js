@@ -3,7 +3,7 @@
 function ContactForm() {
 
     const customFormStyles = {
-        border: "4px solid var(--customPurple)",
+        border: "4px solid var(--customBlue)",
         borderRadius: "1rem",
         backgroundImage: "radial-gradient(circle at 110%, var(--customBlue), var(--customGrey) 50%, var(--customPurple) 75%, var(--customPurple) 75%)"
     }
@@ -22,10 +22,10 @@ function ContactForm() {
                 </div>
                 <div class="form-group my-2">
                     <label for="FormControlTextarea1">Your Message:</label>
-                    <textarea class="form-control contactForm" id="FormControlTextarea1" placeholder="Enter your message here" rows="10"></textarea>
+                    <textarea class="form-control contactForm" id="FormControlTextarea1" placeholder="Enter your message here." rows="10"></textarea>
                 </div>
                 <div>
-                <button type="submit" class=" my-3 btn btn-light btn-outline- btn-block contactBtn" value="submit">Hit me up!</button>
+                <button type="submit" class=" my-3 btn btn-light btn-outline- btn-block contactBtn">Send</button>
                 </div>
             </form>
         </div>

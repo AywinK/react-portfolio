@@ -2,7 +2,7 @@
 :root {
   --customBlue: #006466; /* skobeloff*/
   --customDarkBlue: #e68bd6; /* prussianBlue*/
-  --customGrey: #272640; /* spaceCadet*/
+  --customGrey: rgb(39, 38, 64); /* spaceCadet*/
   --customPurple: #4d194d; /* palatinatePurple*/
 }
 
@@ -98,15 +98,27 @@ form, .customText {
 }
 
 .projectItem {
-  /* border: 0.1em solid var(--customGrey); */
+  border: 0.5em solid var(--customGrey);
+  border-radius: 2em;
+  background-color: rgba(39, 38, 64, 0.4);
+  transition-duration: 1.2s;
 }
 
-.projectImg {
+.projectItem:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+input::placeholder, textarea::placeholder {
+  color: lightgrey !important;
+}
+
+/* .projectImg {
   max-height: 300px !important;
   width: 100% !important;
   max-width: 400px !important;
   object-fit: contain !important;
-}
+} */
 
 /* .App {
   text-align: center;
