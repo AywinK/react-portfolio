@@ -7,12 +7,10 @@ function Home() {
         home: {
             Height: "100vh !important",
             backgroundImage: "linear-gradient(260deg, var(--customBlue), var(--customPurple))"
-            // "linear-gradient(45deg, var(--customBlue), var(--customPurple)),",
         },
         img: {
             maxHeight: "65vh",
             maxWidth: "90vw",
-            // aspectRatio: "1/1.155555555555",
             filter: "drop-shadow(5em -3em 3em var(--customGrey))",
             opacity: "0.75"
         },
@@ -30,7 +28,6 @@ function Home() {
 
     return (
         <main className="container-fluid fill" style={customStylesObj.home}>
-            {/* <h1>Hello</h1> */}
             <div className="row">
                 <div className="col-md-6 d-flex justify-content-center align-items-center">
                     <img src={Photo} className="img-responsive rounded-circle shadow-4-strong py-2" style={customStylesObj.img} alt="Aywin Kattappuram"></img>
