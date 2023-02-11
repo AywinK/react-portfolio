@@ -12,7 +12,6 @@ root.render(
       <App />
     </HashRouter>
   </React.StrictMode>
-  // <h1>Hello</h1>
 );
 
 

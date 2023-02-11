@@ -26,7 +26,6 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
 
         {ProjectData.data.map((projectObj, index) => {
-                    // console.log(index);
                     return (
                         <Route key={index} path={`/Projects/${projectObj.title}`} element={<ProjectPage projectObj={projectObj} />} />
                     )

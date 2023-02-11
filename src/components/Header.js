@@ -1,10 +1,6 @@
 
 import { NavLink } from "react-router-dom";
 
-// import Home from "./Home";
-// import Projects from "./Projects";
-// import Contact from "./Contact";
-
 function Header(props) {
 
     const headerBSStyles = "d-flex justify-content-between text-white px-1 align-items-center";
