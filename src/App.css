@@ -9,6 +9,7 @@
 header nav .active {
   opacity: 0.7 !important;
   font-style: italic !important;
+  color: var(--customDarkBlue) !important;
   /* filter:drop-shadow(8); */
 }
 
@@ -18,7 +19,7 @@ header nav .active {
   background-color: red; /* testing for gaps CSS */
 }
 
-#root .container-fluid {
+#root .container-fluid, .container-fluid {
   min-height: 93vh !important;
 }
 
@@ -123,12 +124,17 @@ input::placeholder, textarea::placeholder {
   text-decoration: none;
 }
 
-/* .projectImg {
-  max-height: 300px !important;
-  width: 100% !important;
-  max-width: 400px !important;
-  object-fit: contain !important;
-} */
+.projectImg {
+  /* max-height: 300px !important; */
+  /* width: 100% !important; */
+  /* max-width: 400px !important; */
+  object-fit: fill !important;
+  /* height: 600px; */
+}
+
+.projectBtn {
+  font-size: 1.2em !important;
+}
 
 /* .App {
   text-align: center;
