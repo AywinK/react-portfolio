@@ -125,11 +125,11 @@ input::placeholder, textarea::placeholder {
 }
 
 .projectImg {
-  /* max-height: 300px !important; */
+  max-height: 93vh !important;
   /* width: 100% !important; */
   /* max-width: 400px !important; */
-  object-fit: fill !important;
-  /* height: 600px; */
+  object-fit: contain !important;
+  /* height: 93vh !important; */
 }
 
 .projectBtn {
