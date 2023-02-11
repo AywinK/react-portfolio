@@ -2,7 +2,7 @@
 :root {
   --customBlue: #006466; /* skobeloff*/
   --customDarkBlue: #e68bd6; /* prussianBlue*/
-  --customGrey: rgb(39, 38, 64); /* spaceCadet*/
+  --customGrey: #272640; /* spaceCadet*/
   --customPurple: #4d194d; /* palatinatePurple*/
 }
 
@@ -111,6 +111,16 @@ form, .customText {
 
 input::placeholder, textarea::placeholder {
   color: lightgrey !important;
+}
+
+.monospaceFont {
+  font-family: monospace;
+  letter-spacing: 0.25em;
+}
+
+.navlinkComponent {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* .projectImg {

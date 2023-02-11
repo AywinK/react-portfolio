@@ -1,5 +1,5 @@
 
-
+import { Route, Routes, NavLink } from "react-router-dom";
 
 function ProjectThumbnail(props) {
 
@@ -9,8 +9,10 @@ function ProjectThumbnail(props) {
     return (
         <div className="projectItem p-2">
             {/* <img src={require(`../assets/images/${projectProp.image}`)}  className="shadow-4-strong pt-1 pb-3 projectImg img-fluid" alt={projectProp.title}></img> */}
+            <NavLink to={`/Projects/${props.projectObj.title}`} className="navlinkComponent">
             <img src={require(`../assets/images/webpageThumbnail.png`)}  className="shadow-4-strong pt-1 pb-3 projectImg img-fluid" alt={props.projectObj.title}></img>
             <h2>{props.projectObj.title}</h2>
+            </NavLink>
             {/* <button type="button" className="cvBtn my-2" onClick={e => {
                 e.preventDefault();
                 const repoLink = projectProp.repo;
