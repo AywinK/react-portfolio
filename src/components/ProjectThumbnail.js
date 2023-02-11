@@ -4,14 +4,20 @@ import { NavLink } from "react-router-dom";
 function ProjectThumbnail(props) {
 
     // const liveLink = projectProp.live;
-    console.log(props)
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
 
     return (
         <div className="projectItem p-2">
             {/* <img src={require(`../assets/images/${projectProp.image}`)}  className="shadow-4-strong pt-1 pb-3 projectImg img-fluid" alt={projectProp.title}></img> */}
-            <NavLink to={`/Projects/${props.projectObj.title}`} className="navlinkComponent">
-            <img src={require(`../assets/images/webpageThumbnail.png`)}  className="shadow-4-strong pt-1 pb-3 img-fluid" alt={props.projectObj.title}></img>
-            <h2>{props.projectObj.title}</h2>
+            <NavLink to={`/Projects/${props.projectObj.title}`} className="navlinkComponent" onClick={scrollUp}>
+                <img src={require(`../assets/images/webpageThumbnail.png`)} className="shadow-4-strong pt-1 pb-3 img-fluid" alt={props.projectObj.title}></img>
+                <h2>{props.projectObj.title}</h2>
             </NavLink>
             {/* <button type="button" className="cvBtn my-2" onClick={e => {
                 e.preventDefault();
