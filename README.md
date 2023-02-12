@@ -35,6 +35,8 @@ The portfolio can be viewed locally by running the command shown below. The web 
 ```
 npm start
 ```
+
+Note that the demo gif takes a while to load since the file size is 97MB.
     
 
 ![Demo](/assets/images/demo.gif)
