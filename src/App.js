@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ProjectData from "./components/ProjectData.json";
 import ProjectPage from './components/ProjectPage';
+import DummyHeader from './components/DummyHeader';
 
 
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Header />
+      <DummyHeader />
 
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,10 +1,9 @@
-
 import { NavLink } from "react-router-dom";
 
-function Header(props) {
+function DummyHeader(props) {
 
     const headerBSStyles = "d-flex justify-content-between text-white px-1 align-items-center";
-    const navBSStyles = "mx-3";
+    const navBSStyles = "mx-1";
     const navLinkBSStyles = "mx-1 px-1 text-decoration-none text-reset fs-6";
     const h2BSStyles = "m-1 p-1 fs-1"
 
@@ -12,10 +11,7 @@ function Header(props) {
     {
         header: {
             backgroundImage: "linear-gradient(350deg, var(--customBlue), var(--customPurple))",
-            opacity: "1",
-            position: "fixed",
-            width: "100vw",
-            zIndex: "9999999999999999999999999"
+            opacity: "1"
         },
         h2: {
             opacity: "0.8",
@@ -41,4 +37,4 @@ function Header(props) {
     );
 }
 
-export default Header;
+export default DummyHeader;
