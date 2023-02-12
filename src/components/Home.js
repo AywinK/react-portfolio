@@ -34,11 +34,11 @@ function Home() {
                     <img src={Photo} className="img-responsive img-fluid rounded-circle shadow-4-strong py-2" style={customStylesObj.img} alt="Aywin Kattappuram"></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center align-items-center p-5 text-center text-white">
-                <h1 className="pb-3 mb-5 font-effect-emboss" style={customStylesObj.titleName}>Aywin Kattappuram</h1>
+                    <h1 className="pb-3 mb-5 font-effect-emboss" style={customStylesObj.titleName}>Aywin Kattappuram</h1>
                     <p className="fs-3" style={customStylesObj.p}>
-                    {brandStatement}
+                        {brandStatement}
                     </p>
-                    <p className="fs-4 py-4 bold text-end" style={{fontFamily: "monospace", letterSpacing: "0.2em", color: "var(--customDarkBlue)", opacity: "0.7"}}>Front End Developer | JavaScript ES6+ | Node.js | React</p>
+                    <p className="fs-4 py-4 bold text-end" style={{ fontFamily: "monospace", letterSpacing: "0.2em", color: "var(--customDarkBlue)", opacity: "0.7" }}>Front End Developer | JavaScript ES6+ | Node.js | React</p>
                 </div>
             </div>
         </main>

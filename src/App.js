@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import ProjectData from "./components/ProjectData.json";
 import ProjectPage from './components/ProjectPage';
 import DummyHeader from './components/DummyHeader';
+import PageNotFound from './components/PageNotFound';
 
 
 
@@ -28,10 +29,13 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
 
         {ProjectData.data.map((projectObj, index) => {
-                    return (
-                        <Route key={index} path={`/Projects/${projectObj.title}`} element={<ProjectPage projectObj={projectObj} />} />
-                    )
-                    })}
+          return (
+            <Route key={index} path={`/Projects/${projectObj.title}`} element={<ProjectPage projectObj={projectObj} />} />
+          )
+        })}
+
+        <Route path='*' element={<PageNotFound />} />
+
 
       </Routes>
 
