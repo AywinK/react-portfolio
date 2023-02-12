@@ -29,7 +29,7 @@ npm i
 
 ## Usage
 
-The portfolio can be viewed locally by running the command shown below. The web application is also deployed to GitHub Pages at AywinK.github.io/react-portfolio
+The portfolio can be viewed locally by running the command shown below. The web application is also deployed to GitHub Pages at https://AywinK.github.io/react-portfolio
 
 
 ```
