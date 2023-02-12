@@ -9,10 +9,11 @@ function Home() {
             backgroundImage: "linear-gradient(260deg, var(--customBlue), var(--customPurple))"
         },
         img: {
-            maxHeight: "65vh",
-            maxWidth: "90vw",
+            // maxHeight: "65vh",
+            // maxWidth: "90vw",
             filter: "drop-shadow(5em -3em 3em var(--customGrey))",
-            opacity: "0.75"
+            opacity: "0.75",
+            transform: "scale(0.9)" //fixes layout on tablets
         },
         p: {
             color: "white !important",
@@ -30,7 +31,7 @@ function Home() {
         <main className="container-fluid fill" style={customStylesObj.home}>
             <div className="row">
                 <div className="col-md-6 d-flex justify-content-center align-items-center">
-                    <img src={Photo} className="img-responsive rounded-circle shadow-4-strong py-2" style={customStylesObj.img} alt="Aywin Kattappuram"></img>
+                    <img src={Photo} className="img-responsive img-fluid rounded-circle shadow-4-strong py-2" style={customStylesObj.img} alt="Aywin Kattappuram"></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center align-items-center p-5 text-center text-white">
                 <h1 className="pb-3 mb-5 font-effect-emboss" style={customStylesObj.titleName}>Aywin Kattappuram</h1>
