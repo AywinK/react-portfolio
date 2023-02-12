@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.707c4a2d.css",
-    "main.js": "/react-portfolio/static/js/main.64eaca2e.js",
+    "main.js": "/react-portfolio/static/js/main.dfc1e349.js",
     "static/media/moviezone.gif": "/react-portfolio/static/media/moviezone.b9b816257c51c5dd4f7d.gif",
     "static/media/planner.gif": "/react-portfolio/static/media/planner.39f14dda2af74b1ac5b3.gif",
     "static/media/test2.jpg": "/react-portfolio/static/media/test2.5ae37ea2e9e9cdcff1c7.jpg",
     "static/media/codequiz.gif": "/react-portfolio/static/media/codequiz.b091bd22db5945caee5f.gif",
     "static/media/weather.gif": "/react-portfolio/static/media/weather.8f52f450093ef554f567.gif",
     "static/media/generator.gif": "/react-portfolio/static/media/generator.953e0aea1ae82a4b4ba9.gif",
+    "static/media/munchlax.gif": "/react-portfolio/static/media/munchlax.62198c37925be7f1f529.gif",
     "static/media/photo2.png": "/react-portfolio/static/media/photo2.71edc9d4ea52c5df1f9b.png",
     "static/media/photo.jpg": "/react-portfolio/static/media/photo.6ddf6811f95bb3886249.jpg",
     "static/media/test1.jpg": "/react-portfolio/static/media/test1.6e4468056f10ad1b4719.jpg",
@@ -15,10 +16,10 @@
     "static/media/webpageThumbnail.png": "/react-portfolio/static/media/webpageThumbnail.389d91129205aefe96be.png",
     "index.html": "/react-portfolio/index.html",
     "main.707c4a2d.css.map": "/react-portfolio/static/css/main.707c4a2d.css.map",
-    "main.64eaca2e.js.map": "/react-portfolio/static/js/main.64eaca2e.js.map"
+    "main.dfc1e349.js.map": "/react-portfolio/static/js/main.dfc1e349.js.map"
   },
   "entrypoints": [
     "static/css/main.707c4a2d.css",
-    "static/js/main.64eaca2e.js"
+    "static/js/main.dfc1e349.js"
   ]
 }
