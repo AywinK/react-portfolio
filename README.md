@@ -5,7 +5,7 @@
 
 ## Description
 
-Personal front-end web developer portfolio created using the React.js framework.
+Personal front-end web developer portfolio created using the React.js framework source files.
 
 ## Table of Contents
 
