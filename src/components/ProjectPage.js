@@ -25,6 +25,7 @@ function ProjectPage(props) {
                             window.open(projectObj.live)
                         }}>View Deployed Page</button>
                     </div>
+                    <p className="text-white text-center fs-2"><span className="customText">Technologies Used:</span> {projectObj.techStack}</p>
                 </div>
             </div>
 
